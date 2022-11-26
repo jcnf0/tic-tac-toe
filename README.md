@@ -5,7 +5,7 @@ This repository contains a work I have done during for a course I took in my eng
 Two main AIs are implemented.  
 
 ### Best first
-The idea is to use an evaluation function to consider the best next move out of all possible moves.
+The idea is to use an evaluation function to consider the best next move out of all possible moves. The evaluation function considered is a quadratic function taking the sum of the difference of pieces of the two players squared for each row, column, and diagonal.
 
 ### Min Max (+Alpha Beta)
 A classic Min Max is implemented. Here the evaluation of a board is the difference between the number of winning states. Thus we only need to consider the
